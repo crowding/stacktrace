@@ -1,0 +1,13 @@
+Package: stacktrace
+Type: Package
+Title: Dump the context stack
+Version: 0.1.0
+Authors@R: person("Peter", "Meilstup", email = "peter.meilstrup@gmail.com", role = c("aut", "cre"))
+Description: The function stacktrace() dumps R's current context stack into a data frame.
+  This stack may be somewhat different from the various fictions constructed by sys.*
+  functions. Since this package inspects data structures that are not exported parts of R's API,
+  it may be unstable or need tweaking to work on your system.
+License: GPL-2 | GPL-3
+LazyData: TRUE
+RoxygenNote: 5.0.1
+Requires: fexpr
