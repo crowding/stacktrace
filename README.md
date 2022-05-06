@@ -2,8 +2,7 @@
 
 The function stacktrace() dumps R's current context stack into a data frame.
 This stack may be somewhat different from the various fictions constructed by sys.*
-functions. Since this package inspects data structures that are not exported parts of R's API,
-it may be unstable or need adjustment to work on your system.
+functions. Since this package inspects data structures that are not exported parts of R's API, it may be unstable or need adjustment to work on your system.
 
 ```
    callflag evaldepth                       promargs                        callfun                  sysparent                           call                     cloenv

@@ -1,4 +1,4 @@
 library(testthat)
-library(context)
+library(stacktrace)
 
-test_package("context")
+test_package("stacktrace")

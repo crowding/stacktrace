@@ -8,6 +8,7 @@ Description: The function stacktrace() dumps R's current context stack into a da
   functions. Since this package inspects data structures that are not exported parts of R's API,
   it may be unstable or need tweaking to work on your system.
 License: GPL-2 | GPL-3
+Encoding: UTF-8
 LazyData: TRUE
-RoxygenNote: 5.0.1
-Requires: fexpr
+RoxygenNote: 7.1.2
+Requires: nseval

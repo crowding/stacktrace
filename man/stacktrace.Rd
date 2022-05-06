@@ -14,4 +14,3 @@ A data frame with one row per stack frame, with deeper frames
 \description{
 Extract the current context stack to a data frame.
 }
-
