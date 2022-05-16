@@ -6,7 +6,9 @@
 #' @import nseval
 #' @export
 stacktrace <- function() {
-  out <- .Call(`_context_stack`)
+  out <- .Call(`_context_stack`) 
+  d2flist <- function(x) .Call("_dotsxp_to_flist", x, PACKAGE="nseval")
+  out$promargs <- lapply(out$promargs, d2flist)
   class(out$callfun) <- "oneline"
   class(out$call) <- "oneline"
   class(out$promargs) <- "oneline"
